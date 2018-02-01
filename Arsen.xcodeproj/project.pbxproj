@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F9EE01620232806000DAB6D /* Nikolay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikolay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EE01620232806000DAB6D /* Arsen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arsen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9EE01920232806000DAB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F9EE01B20232806000DAB6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F9EE01E20232806000DAB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9EE02020232806000DAB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9EE02320232806000DAB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F9EE02520232806000DAB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F9EE02A20232806000DAB6D /* NikolayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikolayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EE02A20232806000DAB6D /* ArsenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArsenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9EE02E20232806000DAB6D /* NikolayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolayTests.swift; sourceTree = "<group>"; };
 		3F9EE03020232806000DAB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F9EE03520232806000DAB6D /* NikolayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikolayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EE03520232806000DAB6D /* ArsenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArsenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9EE03920232806000DAB6D /* NikolayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolayUITests.swift; sourceTree = "<group>"; };
 		3F9EE03B20232806000DAB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		3F9EE00D20232806000DAB6D = {
 			isa = PBXGroup;
 			children = (
-				3F9EE01820232806000DAB6D /* Nikolay */,
-				3F9EE02D20232806000DAB6D /* NikolayTests */,
-				3F9EE03820232806000DAB6D /* NikolayUITests */,
+				3F9EE01820232806000DAB6D /* Arsen */,
+				3F9EE02D20232806000DAB6D /* ArsenTests */,
+				3F9EE03820232806000DAB6D /* ArsenUITests */,
 				3F9EE01720232806000DAB6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		3F9EE01720232806000DAB6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F9EE01620232806000DAB6D /* Nikolay.app */,
-				3F9EE02A20232806000DAB6D /* NikolayTests.xctest */,
-				3F9EE03520232806000DAB6D /* NikolayUITests.xctest */,
+				3F9EE01620232806000DAB6D /* Arsen.app */,
+				3F9EE02A20232806000DAB6D /* ArsenTests.xctest */,
+				3F9EE03520232806000DAB6D /* ArsenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F9EE01820232806000DAB6D /* Nikolay */ = {
+		3F9EE01820232806000DAB6D /* Arsen */ = {
 			isa = PBXGroup;
 			children = (
 				3F9EE01920232806000DAB6D /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				3F9EE02220232806000DAB6D /* LaunchScreen.storyboard */,
 				3F9EE02520232806000DAB6D /* Info.plist */,
 			);
-			path = Nikolay;
+			path = Arsen;
 			sourceTree = "<group>";
 		};
-		3F9EE02D20232806000DAB6D /* NikolayTests */ = {
+		3F9EE02D20232806000DAB6D /* ArsenTests */ = {
 			isa = PBXGroup;
 			children = (
 				3F9EE02E20232806000DAB6D /* NikolayTests.swift */,
 				3F9EE03020232806000DAB6D /* Info.plist */,
 			);
-			path = NikolayTests;
+			path = ArsenTests;
 			sourceTree = "<group>";
 		};
-		3F9EE03820232806000DAB6D /* NikolayUITests */ = {
+		3F9EE03820232806000DAB6D /* ArsenUITests */ = {
 			isa = PBXGroup;
 			children = (
 				3F9EE03920232806000DAB6D /* NikolayUITests.swift */,
 				3F9EE03B20232806000DAB6D /* Info.plist */,
 			);
-			path = NikolayUITests;
+			path = ArsenUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F9EE01520232806000DAB6D /* Nikolay */ = {
+		3F9EE01520232806000DAB6D /* Arsen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9EE03E20232806000DAB6D /* Build configuration list for PBXNativeTarget "Nikolay" */;
+			buildConfigurationList = 3F9EE03E20232806000DAB6D /* Build configuration list for PBXNativeTarget "Arsen" */;
 			buildPhases = (
 				3F9EE01220232806000DAB6D /* Sources */,
 				3F9EE01320232806000DAB6D /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Nikolay;
+			name = Arsen;
 			productName = Nikolay;
-			productReference = 3F9EE01620232806000DAB6D /* Nikolay.app */;
+			productReference = 3F9EE01620232806000DAB6D /* Arsen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F9EE02920232806000DAB6D /* NikolayTests */ = {
+		3F9EE02920232806000DAB6D /* ArsenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9EE04120232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayTests" */;
+			buildConfigurationList = 3F9EE04120232806000DAB6D /* Build configuration list for PBXNativeTarget "ArsenTests" */;
 			buildPhases = (
 				3F9EE02620232806000DAB6D /* Sources */,
 				3F9EE02720232806000DAB6D /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				3F9EE02C20232806000DAB6D /* PBXTargetDependency */,
 			);
-			name = NikolayTests;
+			name = ArsenTests;
 			productName = NikolayTests;
-			productReference = 3F9EE02A20232806000DAB6D /* NikolayTests.xctest */;
+			productReference = 3F9EE02A20232806000DAB6D /* ArsenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F9EE03420232806000DAB6D /* NikolayUITests */ = {
+		3F9EE03420232806000DAB6D /* ArsenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9EE04420232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayUITests" */;
+			buildConfigurationList = 3F9EE04420232806000DAB6D /* Build configuration list for PBXNativeTarget "ArsenUITests" */;
 			buildPhases = (
 				3F9EE03120232806000DAB6D /* Sources */,
 				3F9EE03220232806000DAB6D /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				3F9EE03720232806000DAB6D /* PBXTargetDependency */,
 			);
-			name = NikolayUITests;
+			name = ArsenUITests;
 			productName = NikolayUITests;
-			productReference = 3F9EE03520232806000DAB6D /* NikolayUITests.xctest */;
+			productReference = 3F9EE03520232806000DAB6D /* ArsenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F9EE01120232806000DAB6D /* Build configuration list for PBXProject "Nikolay" */;
+			buildConfigurationList = 3F9EE01120232806000DAB6D /* Build configuration list for PBXProject "Arsen" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F9EE01520232806000DAB6D /* Nikolay */,
-				3F9EE02920232806000DAB6D /* NikolayTests */,
-				3F9EE03420232806000DAB6D /* NikolayUITests */,
+				3F9EE01520232806000DAB6D /* Arsen */,
+				3F9EE02920232806000DAB6D /* ArsenTests */,
+				3F9EE03420232806000DAB6D /* ArsenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		3F9EE02C20232806000DAB6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F9EE01520232806000DAB6D /* Nikolay */;
+			target = 3F9EE01520232806000DAB6D /* Arsen */;
 			targetProxy = 3F9EE02B20232806000DAB6D /* PBXContainerItemProxy */;
 		};
 		3F9EE03720232806000DAB6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F9EE01520232806000DAB6D /* Nikolay */;
+			target = 3F9EE01520232806000DAB6D /* Arsen */;
 			targetProxy = 3F9EE03620232806000DAB6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikolay.app/Nikolay";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arsen.app/Arsen";
 			};
 			name = Debug;
 		};
@@ -478,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikolay.app/Nikolay";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arsen.app/Arsen";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F9EE01120232806000DAB6D /* Build configuration list for PBXProject "Nikolay" */ = {
+		3F9EE01120232806000DAB6D /* Build configuration list for PBXProject "Arsen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9EE03C20232806000DAB6D /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9EE03E20232806000DAB6D /* Build configuration list for PBXNativeTarget "Nikolay" */ = {
+		3F9EE03E20232806000DAB6D /* Build configuration list for PBXNativeTarget "Arsen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9EE03F20232806000DAB6D /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9EE04120232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayTests" */ = {
+		3F9EE04120232806000DAB6D /* Build configuration list for PBXNativeTarget "ArsenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9EE04220232806000DAB6D /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9EE04420232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayUITests" */ = {
+		3F9EE04420232806000DAB6D /* Build configuration list for PBXNativeTarget "ArsenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9EE04520232806000DAB6D /* Debug */,
