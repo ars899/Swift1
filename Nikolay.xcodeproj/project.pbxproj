@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9EE01A20232806000DAB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EE01920232806000DAB6D /* AppDelegate.swift */; };
+		3F9EE01C20232806000DAB6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EE01B20232806000DAB6D /* ViewController.swift */; };
+		3F9EE01F20232806000DAB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9EE01D20232806000DAB6D /* Main.storyboard */; };
+		3F9EE02120232806000DAB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9EE02020232806000DAB6D /* Assets.xcassets */; };
+		3F9EE02420232806000DAB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9EE02220232806000DAB6D /* LaunchScreen.storyboard */; };
+		3F9EE02F20232806000DAB6D /* NikolayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EE02E20232806000DAB6D /* NikolayTests.swift */; };
+		3F9EE03A20232806000DAB6D /* NikolayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EE03920232806000DAB6D /* NikolayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9EE02B20232806000DAB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9EE00E20232806000DAB6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9EE01520232806000DAB6D;
+			remoteInfo = Nikolay;
+		};
+		3F9EE03620232806000DAB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9EE00E20232806000DAB6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9EE01520232806000DAB6D;
+			remoteInfo = Nikolay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9EE01620232806000DAB6D /* Nikolay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikolay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EE01920232806000DAB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9EE01B20232806000DAB6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9EE01E20232806000DAB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9EE02020232806000DAB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9EE02320232806000DAB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9EE02520232806000DAB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9EE02A20232806000DAB6D /* NikolayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikolayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EE02E20232806000DAB6D /* NikolayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolayTests.swift; sourceTree = "<group>"; };
+		3F9EE03020232806000DAB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9EE03520232806000DAB6D /* NikolayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikolayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EE03920232806000DAB6D /* NikolayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolayUITests.swift; sourceTree = "<group>"; };
+		3F9EE03B20232806000DAB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9EE01320232806000DAB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9EE02720232806000DAB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9EE03220232806000DAB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9EE00D20232806000DAB6D = {
+			isa = PBXGroup;
+			children = (
+				3F9EE01820232806000DAB6D /* Nikolay */,
+				3F9EE02D20232806000DAB6D /* NikolayTests */,
+				3F9EE03820232806000DAB6D /* NikolayUITests */,
+				3F9EE01720232806000DAB6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9EE01720232806000DAB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9EE01620232806000DAB6D /* Nikolay.app */,
+				3F9EE02A20232806000DAB6D /* NikolayTests.xctest */,
+				3F9EE03520232806000DAB6D /* NikolayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9EE01820232806000DAB6D /* Nikolay */ = {
+			isa = PBXGroup;
+			children = (
+				3F9EE01920232806000DAB6D /* AppDelegate.swift */,
+				3F9EE01B20232806000DAB6D /* ViewController.swift */,
+				3F9EE01D20232806000DAB6D /* Main.storyboard */,
+				3F9EE02020232806000DAB6D /* Assets.xcassets */,
+				3F9EE02220232806000DAB6D /* LaunchScreen.storyboard */,
+				3F9EE02520232806000DAB6D /* Info.plist */,
+			);
+			path = Nikolay;
+			sourceTree = "<group>";
+		};
+		3F9EE02D20232806000DAB6D /* NikolayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9EE02E20232806000DAB6D /* NikolayTests.swift */,
+				3F9EE03020232806000DAB6D /* Info.plist */,
+			);
+			path = NikolayTests;
+			sourceTree = "<group>";
+		};
+		3F9EE03820232806000DAB6D /* NikolayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9EE03920232806000DAB6D /* NikolayUITests.swift */,
+				3F9EE03B20232806000DAB6D /* Info.plist */,
+			);
+			path = NikolayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9EE01520232806000DAB6D /* Nikolay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9EE03E20232806000DAB6D /* Build configuration list for PBXNativeTarget "Nikolay" */;
+			buildPhases = (
+				3F9EE01220232806000DAB6D /* Sources */,
+				3F9EE01320232806000DAB6D /* Frameworks */,
+				3F9EE01420232806000DAB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nikolay;
+			productName = Nikolay;
+			productReference = 3F9EE01620232806000DAB6D /* Nikolay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9EE02920232806000DAB6D /* NikolayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9EE04120232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayTests" */;
+			buildPhases = (
+				3F9EE02620232806000DAB6D /* Sources */,
+				3F9EE02720232806000DAB6D /* Frameworks */,
+				3F9EE02820232806000DAB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9EE02C20232806000DAB6D /* PBXTargetDependency */,
+			);
+			name = NikolayTests;
+			productName = NikolayTests;
+			productReference = 3F9EE02A20232806000DAB6D /* NikolayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9EE03420232806000DAB6D /* NikolayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9EE04420232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayUITests" */;
+			buildPhases = (
+				3F9EE03120232806000DAB6D /* Sources */,
+				3F9EE03220232806000DAB6D /* Frameworks */,
+				3F9EE03320232806000DAB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9EE03720232806000DAB6D /* PBXTargetDependency */,
+			);
+			name = NikolayUITests;
+			productName = NikolayUITests;
+			productReference = 3F9EE03520232806000DAB6D /* NikolayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9EE00E20232806000DAB6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F9EE01520232806000DAB6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F9EE02920232806000DAB6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F9EE01520232806000DAB6D;
+					};
+					3F9EE03420232806000DAB6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F9EE01520232806000DAB6D;
+					};
+				};
+			};
+			buildConfigurationList = 3F9EE01120232806000DAB6D /* Build configuration list for PBXProject "Nikolay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9EE00D20232806000DAB6D;
+			productRefGroup = 3F9EE01720232806000DAB6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9EE01520232806000DAB6D /* Nikolay */,
+				3F9EE02920232806000DAB6D /* NikolayTests */,
+				3F9EE03420232806000DAB6D /* NikolayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9EE01420232806000DAB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9EE02420232806000DAB6D /* LaunchScreen.storyboard in Resources */,
+				3F9EE02120232806000DAB6D /* Assets.xcassets in Resources */,
+				3F9EE01F20232806000DAB6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9EE02820232806000DAB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9EE03320232806000DAB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9EE01220232806000DAB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9EE01C20232806000DAB6D /* ViewController.swift in Sources */,
+				3F9EE01A20232806000DAB6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9EE02620232806000DAB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9EE02F20232806000DAB6D /* NikolayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9EE03120232806000DAB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9EE03A20232806000DAB6D /* NikolayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9EE02C20232806000DAB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9EE01520232806000DAB6D /* Nikolay */;
+			targetProxy = 3F9EE02B20232806000DAB6D /* PBXContainerItemProxy */;
+		};
+		3F9EE03720232806000DAB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9EE01520232806000DAB6D /* Nikolay */;
+			targetProxy = 3F9EE03620232806000DAB6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9EE01D20232806000DAB6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9EE01E20232806000DAB6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9EE02220232806000DAB6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9EE02320232806000DAB6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9EE03C20232806000DAB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9EE03D20232806000DAB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9EE03F20232806000DAB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nikolay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Nikolay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9EE04020232806000DAB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nikolay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Nikolay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F9EE04220232806000DAB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikolayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NikolayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikolay.app/Nikolay";
+			};
+			name = Debug;
+		};
+		3F9EE04320232806000DAB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikolayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NikolayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikolay.app/Nikolay";
+			};
+			name = Release;
+		};
+		3F9EE04520232806000DAB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikolayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NikolayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nikolay;
+			};
+			name = Debug;
+		};
+		3F9EE04620232806000DAB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikolayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NikolayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nikolay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9EE01120232806000DAB6D /* Build configuration list for PBXProject "Nikolay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9EE03C20232806000DAB6D /* Debug */,
+				3F9EE03D20232806000DAB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9EE03E20232806000DAB6D /* Build configuration list for PBXNativeTarget "Nikolay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9EE03F20232806000DAB6D /* Debug */,
+				3F9EE04020232806000DAB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9EE04120232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9EE04220232806000DAB6D /* Debug */,
+				3F9EE04320232806000DAB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9EE04420232806000DAB6D /* Build configuration list for PBXNativeTarget "NikolayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9EE04520232806000DAB6D /* Debug */,
+				3F9EE04620232806000DAB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9EE00E20232806000DAB6D /* Project object */;
+}
